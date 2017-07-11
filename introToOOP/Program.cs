@@ -58,7 +58,7 @@ namespace introToOOP
 
             thirdHero.BattleNemises();
             Console.WriteLine("Oh no! Now my costume is " + thirdHero.Costume);
-            Console.WriteLine("And my strength has deminished to " + thirdHero.StrengthLevel);
+            Console.WriteLine("And my strength has deminished to " + thirdHero.StrengthLevel); 
 
 
 
