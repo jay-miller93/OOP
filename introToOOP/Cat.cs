@@ -25,6 +25,11 @@ namespace introToOOP
             get { return this.name; }
             set { this.name = value; }
         }
+
+        public int Age
+        {
+            get { return this.age; }
+        }
         //also have behaviors
         //methods:repeatable or reusable sections of code - actions
         //constructors:specialized methods that are used when instantiating an object
@@ -35,19 +40,22 @@ namespace introToOOP
         {
             //this is an example of a default cunstructor-takes no arguments or parameters
         }
+        //can have as many sonstructors as you need as long as they each have a unique signature
+        //by signature, i mean the parameters in the parentheses after cunstructor name
         public Cat(string name, int age, string furColor)
         {
             this.name = name;
             this.age = age;
             this.furColor = furColor;
         }
+        
         public void Eat()
         {
             if (isHungry)
                 {
                 isHungry = false;
                 }
-            Console.WriteLine("is the cat hungry? " + isHungry);
+            Console.WriteLine("Is the cat hungry? " + isHungry);
         }
     }
 }
