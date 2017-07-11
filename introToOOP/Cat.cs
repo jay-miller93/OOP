@@ -19,7 +19,7 @@ namespace introToOOP
         private string furColor;
         private bool isHungry = true;
 
-        //Properties:a mix between firld and method that allow controlled access
+        //Properties:a mix between field and method that allow controlled access
         public string Name
         {
             get { return this.name; }
